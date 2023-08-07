@@ -1,53 +1,60 @@
-<h1 style="text-align: center;">Gestión Sucursal</h1>
-<div style="display: flex; justify-content: center;">
-    <!--
+<h1>Gestión Sucursal</h1>
+<div class="main-container">
     <div class="left">
         <form>
             <div>
-                <input type="text" name="" id="" placeholder="Nombre de la Sucursal"><br>
-                <input type="text" name="" id="" placeholder="Nombre del Titular">
-                <input type="text" name="" id="" placeholder="RFC del Titular"><br>
-                <input type="text" name="" id="" placeholder="Domicilio">
-                <input type="text" name="" id="" placeholder="Colonia"><br>
-                <input type="text" name="" id="" placeholder="Ciudad">
-                <input type="text" name="" id="" placeholder="Estado"><br>
-                <input type="number" name="" id="" placeholder="Codigo Postal">
-                <input type="tel" name="" id="" placeholder="Teléfono"><br>
-                <input type="text" name="" id="" placeholder="Longitud">
-                <input type="text" name="" id="" placeholder="Latitud"><br>
-                <input type="text" name="" id="" placeholder="Estatus" readonly> 
+                <div class="row">
+                    <input type="text" name="nombre-sucursal" class="large-input" id="nombre-sucursal" placeholder="Nombre de la Sucursal">
+                </div>
+                <div class="row">
+                    <input type="text" name="nombre-titular" class="small-input" id="nombre-titular" placeholder="Nombre del Titular">
+                    <input type="text" name="rfc-titular" class="small-input" id="rfc-titular" placeholder="RFC del Titular">
+                </div>
+                <div class="row">
+                    <input type="text" name="domicilio" class="small-input" id="domicilio" placeholder="Domicilio">
+                    <input type="text" name="colonia" class="small-input" id="colonia" placeholder="Colonia">
+                </div>
+                <div class="row">
+                    <input type="text" name="ciudad" class="small-input" id="ciudad" placeholder="Ciudad">
+                    <input type="text" name="estado" class="small-input" id="estado" placeholder="Estado">
+                </div>
+                <div class="row">
+                    <input type="number" name="codigo-postal" class="small-input" id="codigo-postal" placeholder="Codigo Postal">
+                    <input type="tel" name="telefono" class="small-input" id="telefono" placeholder="Teléfono">
+                </div>
+                <div class="row">
+                    <input type="text" name="longitud" class="small-input" id="longitud" placeholder="Longitud">
+                    <input type="text" name="latitud" class="small-input" id="latitud" placeholder="Latitud">
+                </div>
+                <div class="row">
+                    <input type="text" name="estatus" class="large-input" id="estatus" placeholder="Estatus" readonly> 
+                </div>
             </div> 
-            <div>
-                <input type="button" value="Registrar">
-                <input type="button" value="Modificar">
-                <input type="button" value="Eliminar">
+            <div id="buttons">
+                <button type="button" onclick="controller.addSucursal();"><i class="fa-solid fa-circle-plus"></i> Registrar</button>
+                <button type="button" onclick="controller.editSucursal();"><i class="fa-solid fa-pencil"></i> Modificar</button>
+                <button type="button" onclick="controller.deleteSucursal();"><i class="fa-solid fa-circle-minus"></i> Eliminar</button>
             </div>
         </form>
     </div>
-    -->
     <div class="right">
-        <form>
-            <input type="search" name="" id="" placeholder="Buscar Sucursal">
-        </form>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre Sucursal</th>
-                    <th>Titular</th>
-                    <th>RFC Titular</th>
-                    <th>Domicilio</th>
-                    <th>Colonia</th>
-                    <th>Ciudad</th>
-                    <th>Estado</th>
-                    <th>Codigo Postal</th>
-                    <th>Telefono</th>
-                    <th>Longitud</th>
-                    <th>Latitud</th>
-                    <th>Estatus</th>
-                </tr>
-            </thead>
-            <tbody id="tblSucursal"></tbody>
-        </table>
+        <div id="tabla">
+            <form>
+                <input type="search" class="button large-input" name="" id="" placeholder="Buscar Sucursal">
+                <div class="checkbox-wrapper-2">
+                    <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.showSucursal();">
+                </div>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre Sucursal</th>
+                        <th>Titular</th>
+                    </tr>
+                </thead>
+                <tbody id="tblSucursal"></tbody>
+            </table>
+        </div>
     </div>
 </div>

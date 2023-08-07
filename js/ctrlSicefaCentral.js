@@ -1,5 +1,6 @@
 var main = document.getElementById("miMain");
 var active = "home";
+var controller;
 
 function home() {
     let html = `
@@ -25,7 +26,8 @@ function sucursal() {
             changeActive("sucursal");
             main.innerHTML = html;
             import("../modules/moduloSucursal/controllerSucursal.js").then((module) => {
-                module.añadirCampos();
+                controller = module
+                controller.añadirCampos();
             });
         }
     );
