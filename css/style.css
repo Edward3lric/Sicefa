@@ -126,8 +126,6 @@ input::placeholder {
   display: flex;
   justify-content: flex-end;
   gap: 5%;
-  height: calc(100% - 460px);
-  align-items: flex-end;
 }
 #buttons button {
   height: 50px;
@@ -178,6 +176,12 @@ th {
 
 input[type="search"]{
   width: 85%;
+}
+
+#mapContainer {
+  width: 100%;
+  height: calc(100% - 510px);
+  margin-bottom: 10px;
 }
 
 /* Checkbox */

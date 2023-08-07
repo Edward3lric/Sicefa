@@ -108,6 +108,9 @@ export function selectSucursal(index){
 
     // Modificar la variable global con el indice
     indiceSucursalSeleccionada = index;
+
+    // Poner Mapa
+    createMap(sucursal.latitud, sucursal.longitud);
 }
 
 // Funcion para eliminar una sucurssal
@@ -243,4 +246,29 @@ function loadTable(){
     });
     // Insertar el codigo html dentro de la tabla Sucursal
     document.getElementById("tblSucursal").innerHTML = html;
+}
+
+function createMap(latitud, longitud){
+    document.getElementById('mapContainer').innerHTML = "";
+    var platform = new H.service.Platform({
+    apikey: 'p1T_AgFa5bwmfRkSPH1VXSfnp8yqUQBnkIPESySTZGg' 
+    });
+
+    var defaultLayers = platform.createDefaultLayers();
+    var map = new H.Map(
+    document.getElementById('mapContainer'),
+    defaultLayers.vector.normal.map,
+    {
+        center: { lat: latitud, lng: longitud },
+        zoom: 18 
+    }
+    );
+
+    // Habilitar el comportamiento de arrastrar y mover el mapa con el mouse
+    var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+    // Agrega un marcador en las coordenadas dadas
+    var marker = new H.map.Marker({ lat: latitud, lng: longitud });
+    map.addObject(marker);
+  
 }
