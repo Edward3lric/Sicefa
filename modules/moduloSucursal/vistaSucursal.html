@@ -39,8 +39,8 @@
     </div>
     <div class="right">
         <div id="tabla">
-            <form>
-                <input type="search" class="button large-input" name="" id="" placeholder="Buscar Sucursal">
+            <form id="filtros">
+                <input type="search" class="button large-input" name="" id="" placeholder="Buscar Sucursal" onchange="controller.searchSucursal();">
                 <div class="checkbox-wrapper-2">
                     <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.showSucursal();">
                 </div>
