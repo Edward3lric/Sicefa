@@ -80,9 +80,9 @@ main{
   height: 230px;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 38px;
 }
 
@@ -124,7 +124,7 @@ input::placeholder {
 }
 #buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 5%;
 }
 #buttons button {
@@ -134,6 +134,13 @@ input::placeholder {
   border-radius: 30px;
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+i {
+  font-size: 30px;
 }
 #buttons button:hover {
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
@@ -164,6 +171,15 @@ th {
   height: 30px;
   border-bottom: 3px rgba(121, 121, 121, 0.5) solid;
   background-color: #c1c1c1;
+}
+#column-1 {
+  width: 15%;
+}
+#column-2 {
+  width: 45%;
+}
+#column-3 {
+  width: 40%;
 }
 .row-data:hover {
   background-color: #e3e3e3;
@@ -253,4 +269,38 @@ input[type="search"]{
 
 .checkbox-wrapper-2 .ikxBAC:checked:hover {
   background-color: #535db3;
+}
+
+@media (max-width: 576px) {
+  /* Estilos para pantallas pequeñas */
+}
+
+/* CSS Pedidos */
+#products {
+  height: calc(100% - 310px);
+  margin-bottom: 20px;
+}
+#products table {
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+#products table th{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px black solid;
+  height: 40px;
+}
+#products table td{
+  border: none;
+}
+.row-data-2 {
+  border-right: 1px black solid !important;
+}
+#products table th:first-child{
+  border-right: 1px black solid;
+  padding-left: 20px;
+}
+#column-4 {
+  width: 80%;
 }

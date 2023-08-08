@@ -1,0 +1,162 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre_de_usuario": "Administrador",
+    "contraseña": "Administrador",
+    "tipo_usario": "ADMC",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 2,
+    "nombre_de_usuario": "Admin2",
+    "contraseña": "Admin2",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Centro"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 3,
+    "nombre_de_usuario": "Admin3",
+    "contraseña": "Admin3",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 4,
+    "nombre_de_usuario": "Admin4",
+    "contraseña": "Admin4",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 5,
+    "nombre_de_usuario": "Admin5",
+    "contraseña": "Admin5",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 6,
+    "nombre_de_usuario": "Admin6",
+    "contraseña": "Admin6",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 7,
+    "nombre_de_usuario": "Admin7",
+    "contraseña": "Admin7",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 8,
+    "nombre_de_usuario": "Admin8",
+    "contraseña": "Admin8",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 9,
+    "nombre_de_usuario": "Admin9",
+    "contraseña": "Admin9",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  },
+  {
+    "id_usuario": 10,
+    "nombre_de_usuario": "Admin10",
+    "contraseña": "Admin10",
+    "tipo_usario": "ADMS",
+    "empleado": {
+      "sucursal": {
+        "nombre": "Matriz"
+      },
+      "persona": {
+        "nombre": "hola",
+        "a_paterno": "hola",
+        "a_materno": "hola"
+      }
+    }
+  }
+]

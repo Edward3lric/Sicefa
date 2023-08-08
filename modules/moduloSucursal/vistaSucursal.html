@@ -4,27 +4,27 @@
         <form>
             <div>
                 <div class="row">
-                    <input type="text" name="nombre-sucursal" class="large-input" id="nombre-sucursal" placeholder="Nombre de la Sucursal">
+                    <input type="text" name="nombre-sucursal" class="large-input" id="nombre-sucursal" placeholder="Nombre de la Sucursal" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="nombre-titular" class="small-input" id="nombre-titular" placeholder="Nombre del Titular">
-                    <input type="text" name="rfc-titular" class="small-input" id="rfc-titular" placeholder="RFC del Titular">
+                    <input type="text" name="nombre-titular" class="small-input" id="nombre-titular" placeholder="Nombre del Titular" required>
+                    <input type="text" name="rfc-titular" class="small-input" id="rfc-titular" placeholder="RFC del Titular" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="domicilio" class="small-input" id="domicilio" placeholder="Domicilio">
-                    <input type="text" name="colonia" class="small-input" id="colonia" placeholder="Colonia">
+                    <input type="text" name="domicilio" class="small-input" id="domicilio" placeholder="Domicilio" required>
+                    <input type="text" name="colonia" class="small-input" id="colonia" placeholder="Colonia" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="ciudad" class="small-input" id="ciudad" placeholder="Ciudad">
-                    <input type="text" name="estado" class="small-input" id="estado" placeholder="Estado">
+                    <input type="text" name="ciudad" class="small-input" id="ciudad" placeholder="Ciudad" required>
+                    <input type="text" name="estado" class="small-input" id="estado" placeholder="Estado" required>
                 </div>
                 <div class="row">
-                    <input type="number" name="codigo-postal" class="small-input" id="codigo-postal" placeholder="Codigo Postal">
-                    <input type="tel" name="telefono" class="small-input" id="telefono" placeholder="Teléfono">
+                    <input type="number" name="codigo-postal" class="small-input" id="codigo-postal" placeholder="Codigo Postal" required>
+                    <input type="tel" name="telefono" class="small-input" id="telefono" placeholder="Teléfono" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="longitud" class="small-input" id="longitud" placeholder="Longitud">
-                    <input type="text" name="latitud" class="small-input" id="latitud" placeholder="Latitud">
+                    <input type="text" name="longitud" class="small-input" id="longitud" placeholder="Longitud" required>
+                    <input type="text" name="latitud" class="small-input" id="latitud" placeholder="Latitud" required>
                 </div>
                 <div class="row">
                     <input type="text" name="estatus" class="large-input" id="estatus" placeholder="Estatus" readonly> 
@@ -41,7 +41,7 @@
     <div class="right">
         <div id="tabla">
             <form id="filtros">
-                <input type="search" class="button large-input" name="" id="" placeholder="Buscar Sucursal" onchange="controller.searchSucursal();">
+                <input type="search" class="button large-input" name="buscar" id="buscar" placeholder="Buscar Sucursal" onchange="controller.searchSucursal();">
                 <div class="checkbox-wrapper-2">
                     <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.showSucursal();">
                 </div>
@@ -49,9 +49,9 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Nombre Sucursal</th>
-                        <th>Titular</th>
+                        <th id="column-1">Id</th>
+                        <th id="column-2">Nombre Sucursal</th>
+                        <th id="column-3">Titular</th>
                     </tr>
                 </thead>
                 <tbody id="tblSucursal"></tbody>

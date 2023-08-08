@@ -1,35 +1,55 @@
-<h1 style="text-align: center;">Gestión Pedidos</h1>
-<div style="display: flex; justify-content: center;">
-    <!--
+<h1>Gestión Pedidos</h1>
+<div class="main-container">
     <div class="left">
         <form>
             <div>
+                <div class="row">
+                    <input type="text" name="nombre-sucursal" class="large-input" id="nombre-sucursal" placeholder="Sucursal" required readonly>
+                </div>
+                <div class="row">
+                    <input type="text" name="nombre-empleado" class="small-input" id="nombre-empleado" placeholder="Empleado" required readonly>
+                    <input type="text" name="fecha-hora" class="small-input" id="fecha-hora" placeholder="Fecha y Hora" readonly>
+                </div>
+                <div class="row">
+                    <input type="text" name="producto" class="small-input" id="nombre-producto" placeholder="Producto" required onkeydown="controller.addProduct(event);">
+                    <input type="text" name="estatus" class="small-input" id="estatus" placeholder="Estatus" required readonly>
+                </div>
             </div> 
-            <div>
-                <input type="button" value="Registrar">
-                <input type="button" value="Modificar">
-                <input type="button" value="Eliminar">
+            <div id="products">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="column-4">Producto</th>
+                            <th id="column-5">Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tblProducto"></tbody>
+                </table>
+            </div>
+            <div id="buttons">
+                <button type="button" onclick="controller.addCompra();"><i class="fa-solid fa-circle-plus"></i> Crear</button>
+                <button type="button" onclick="controller.deleteSucursal();"><i class="fa-solid fa-circle-minus"></i> Cancelar</button>
             </div>
         </form>
     </div>
-    -->
     <div class="right">
-        <form>
-            <input type="search" name="" id="" placeholder="Buscar Pedido">
-        </form>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Empleado</th>
-                    <th>Sucursal</th>
-                    <th>Productos</th>
-                    <th>Cantidad</th>
-                    <th>Estatus</th>
-                    <th>Fecha y Hora</th>
-                </tr>
-            </thead>
-            <tbody id="tblCompra"></tbody>
-        </table>
+        <div id="tabla">
+            <form id="filtros">
+                <input type="search" class="button large-input" name="buscar" id="buscar" placeholder="Buscar Sucursal" onchange="controller.searchSucursal();">
+                <div class="checkbox-wrapper-2">
+                    <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.showSucursal();">
+                </div>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="column-1">Id</th>
+                        <th id="column-2">Empleado</th>
+                        <th id="column-3">Fecha y Hora</th>
+                    </tr>
+                </thead>
+                <tbody id="tblCompra"></tbody>
+            </table>
+        </div>
     </div>
 </div>

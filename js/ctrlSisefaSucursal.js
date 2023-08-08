@@ -1,5 +1,6 @@
 var main = document.getElementById("miMain");
 var active = "home";
+var controller;
 
 function home() {
     let html = `
@@ -25,7 +26,8 @@ function pedido() {
             changeActive("pedido");
             main.innerHTML = html;
             import("../modules/moduloCompra/controllerCompra.js").then((module) => {
-                module.añadirCampos();
+                controller = module;
+                controller.añadirCampos();
             });
         }
     );

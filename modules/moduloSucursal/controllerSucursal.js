@@ -104,7 +104,8 @@ export function selectSucursal(index){
     telefono.value = sucursal.telefono;
     longitud.value = sucursal.longitud;
     latitud.value = sucursal.latitud;
-    estatus.value = sucursal.estatus;
+    // Operador Ternario, tiene un comportamiento similar a un "IF"
+    estatus.value = (sucursal.estatus == 1) ? "Activo" : "Inactivo";
 
     // Modificar la variable global con el indice
     indiceSucursalSeleccionada = index;
@@ -248,8 +249,12 @@ function loadTable(){
     document.getElementById("tblSucursal").innerHTML = html;
 }
 
+// Funcion poara poner el mapa en las coordenadas especificas
 function createMap(latitud, longitud){
+    // Borrar mapa anterior
     document.getElementById('mapContainer').innerHTML = "";
+
+    // Codigo para insertar el MAPA con mi API key
     var platform = new H.service.Platform({
     apikey: 'p1T_AgFa5bwmfRkSPH1VXSfnp8yqUQBnkIPESySTZGg' 
     });

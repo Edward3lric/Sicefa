@@ -31,14 +31,14 @@
         <h3>Inicia sesión con tu cuenta</h3>
         <label id="firstLabel">Usuario <i class="fa-solid fa-circle-user"></i></label><br>
         <div>
-          <input type="text"><br>
+          <input type="text" id="usuario" name="usuario" required><br>
         </div>
         <label>Contraseña <i class="fa-solid fa-lock"></i></label><br>
         <div>
-          <input type="password"><br>
+          <input type="password" id="contraseña" name="contraseña" required><br>
         </div>
         <div>
-          <input type="submit" value="Iniciar Sesión" id="btnSubmit">
+          <input type="button" value="Iniciar Sesión" id="btnSubmit" onclick="controller.login();">
         </div>
       </form>
     </div>
@@ -47,6 +47,12 @@
     <div>
       <p>Derechos de autor &copy; 2023 Sicefa. Todos los derechos reservados.</p>
     </div>
+    <script>
+      var controller
+      import("../modules/moduloUsuario/controllerUsuario.js").then((module) => {
+        controller = module;
+      });
+    </script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/c0424d8c9c.js" crossorigin="anonymous"></script>
   </footer>
