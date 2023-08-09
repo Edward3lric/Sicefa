@@ -17,7 +17,7 @@ function home() {
 }
 
 function sucursal() {
-    fetch("../modules/moduloSucursal/vistaSucursal.html")
+    fetch("./modules/moduloSucursal/vistaSucursal.html")
     .then( 
         function (response) {return response.text()}
     )

@@ -17,7 +17,7 @@ function home() {
 }
 
 function pedido() {
-    fetch("../modules/moduloCompra/vistaCompra.html")
+    fetch("./modules/moduloCompra/vistaCompra.html")
     .then( 
         function (response) {return response.text()}
     )
