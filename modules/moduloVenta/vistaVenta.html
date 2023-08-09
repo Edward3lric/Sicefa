@@ -1,25 +1,26 @@
-<h1>Gestión Pedidos</h1>
+<h1>Gestión Ventas</h1>
 <div class="main-container">
     <div class="left">
         <form>
             <div>
                 <div class="row">
-                    <input type="text" name="" class="large-input" id="" placeholder="Sucursal" required readonly>
+                    <input type="text" name="" class="large-input" id="" placeholder="Empleado" required readonly>
                 </div>
                 <div class="row">
-                    <input type="text" name="" class="small-input" id="" placeholder="Empleado" required readonly>
-                    <input type="text" name="" class="small-input" id="" placeholder="Fecha y Hora" required>
+                    <input type="number" name="" class="large-input" id="" placeholder="Buscar Cliente" required>
                 </div>
                 <div class="row">
-                    <input type="number" name="" class="large-input" id="" placeholder="Buscar Producto" required>
+                    <input type="text" name="" class="small-input" id="" placeholder="Fecha" required readonly>
+                    <input type="text" name="" class="small-input" id="" placeholder="Hora" required>
                 </div>
             </div> 
             <div id="products">
                 <table>
                     <thead>
                         <tr>
-                            <th id="column-4">Producto</th>
-                            <th id="column-5">Cantidad</th>
+                            <th id="column-1">Producto</th>
+                            <th id="column-2">Cantidad</th>
+                            <th id="column-3">Precio Unitario</th>
                         </tr>
                     </thead>
                     <tbody id="tblProducto"></tbody>

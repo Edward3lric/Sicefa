@@ -34,15 +34,37 @@ function sucursal() {
 }
 
 function producto() {
-    let html = "";
-    changeActive("producto");
-    main.innerHTML = html;
+    fetch("./modules/moduloProducto/vistaProducto.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("producto");
+            main.innerHTML = html;
+            import("../modules/moduloProducto/controllerProducto.js").then((module) => {
+                controller = module;
+                controller.añadirCampos();
+            });
+        }
+    );
 }
 
 function pedido() {
-    let html = "";
-    changeActive("pedido");
-    main.innerHTML = html;
+    fetch("./modules/moduloCompra/vistaCompra2.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("pedido");
+            main.innerHTML = html;
+            import("../modules/moduloCompra/controllerCompra.js").then((module) => {
+                controller = module;
+                controller.añadirCampos();
+            });
+        }
+    );
 }
 
 function cambiarPassword(){

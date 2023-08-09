@@ -1,0 +1,72 @@
+<h1>Gestión Empleado</h1>
+<div class="main-container">
+    <div class="left">
+        <form>
+            <div>
+                <div class="row">
+                    <input type="text" name="nombre" class="large-input" id="nombre" placeholder="Nombre del Empleado" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="a_paterno" class="small-input" id="a_paterno" placeholder="Apellido Paterno" required>
+                    <input type="text" name="a_materno" class="small-input" id="a_materno" placeholder="Apellido Materno" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="genero" class="small-input" id="genero" placeholder="genero" required>
+                    <input type="text" name="fecha_nacimiento" class="small-input" id="fecha_nacimiento" placeholder="Fecha Nacimiento" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="rfc" class="small-input" id="rfc" placeholder="RFC" required>
+                    <input type="text" name="curp" class="small-input" id="curp" placeholder="CURP" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="foto" class="small-input" id="foto" placeholder="Foto" required>
+                    <input type="text" name="domicilio" class="small-input" id="domicilio" placeholder="Domicilio" required>
+                </div>
+                <div class="row">
+                    <input type="number" name="codigo-postal" class="small-input" id="codigo-postal" placeholder="Codigo Postal" required>
+                    <input type="text" name="ciudad" class="small-input" id="ciudad" placeholder="Ciudad" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="estado" class="small-input" id="estado" placeholder="Estado" required>
+                    <input type="tel" name="telefono" class="small-input" id="telefono" placeholder="Teléfono" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="fecha_ingreso" class="small-input" id="fecha_ingreso" placeholder="Fecha Ingreso" readonly>
+                    <input type="text" name="puesto" class="small-input" id="puesto" placeholder="Puesto" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="salario" class="small-input" id="salario" placeholder="Salario" required>
+                    <input type="text" name="email" class="small-input" id="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div style="height: calc(100% - 630px);">
+
+            </div> 
+            <div id="buttons">
+                <button type="submit" onclick="controller.addEmpleado();"><i class="fa-solid fa-circle-plus"></i> <span>Registrar</span></button>
+                <button type="submit" onclick="controller.editEmpleado();"><i class="fa-solid fa-pencil"></i> <span>Modificar</span></button>
+                <button type="button" onclick="controller.deleteEmpleado();"><i class="fa-solid fa-circle-minus"></i> <span>Eliminar</span></button>
+            </div>
+        </form>
+    </div>
+    <div class="right">
+        <div id="tabla">
+            <form id="filtros">
+                <input type="search" class="button large-input" name="buscar" id="buscar" placeholder="Buscar Empleado" onchange="controller.loadTable();">
+                <div class="checkbox-wrapper-2">
+                    <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.loadTable();">
+                </div>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Codigo Empleado</th>
+                        <th>Nombre Completo</th>
+                        <th>Puesto</th>
+                    </tr>
+                </thead>
+                <tbody id="tblEmpleado"></tbody>
+            </table>
+        </div>
+    </div>
+</div>

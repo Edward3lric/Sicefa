@@ -28,13 +28,13 @@ function checkUser() {
     if (nombreUsuario == usuario.nombre_de_usuario && contraseña == usuario.contraseña){
       if (usuario.empleado.sucursal.nombre == "Matriz"){
         let url = "../sicefaCentral.html" +
-          "?id_usuario=" + encodeURIComponent(usuario.id_usuario) +
-          "&sucural=" + encodeURIComponent(usuario.empleado.sucursal.nombre);
+          "?id_usuario=" + encodeURIComponent(usuario.id_usuario);
         window.location.href = url;
         userFound = true;
       } else {
         let url = "../sicefaSucursal.html" + 
-          "?id_usuario=" + encodeURIComponent(usuario.id_usuario);
+          "?id_usuario=" + encodeURIComponent(usuario.id_usuario) +
+          "&sucural=" + encodeURIComponent(usuario.empleado.sucursal.nombre);
         window.location.href = url;
         userFound = true;
       }

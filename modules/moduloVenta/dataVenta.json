@@ -1,0 +1,251 @@
+[
+    {
+        "id_compra": 1,
+        "sucursal": {
+            "nombre": "Centro"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"                  
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Donepecilo",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Etambutol",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 2,
+        "sucursal": {
+            "nombre": "Centro"
+        },  
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Efavirenz",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Ciprofibrato",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 3,
+        "sucursal": {
+            "nombre": "Centro"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Lidocaína",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Ambroxol",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 4,
+        "sucursal": {
+            "nombre": "Centro"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },  
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Metronidazol",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Nitrofural",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 5,
+        "sucursal": {
+            "nombre": "Centro Max"
+        },
+        "empleado":{
+            "nombre": "jsjs",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Metronidazol",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Nitrofural",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 6,
+        "sucursal": {
+            "nombre": "Centro Max"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Donepecilo",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Etambutol",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 7,
+        "sucursal": {
+            "nombre": "Centro Max"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Efavirenz",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Ciprofibrato",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },{
+        "id_compra": 8,
+        "sucursal": {
+            "nombre": "Plaza Mayor"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Pendiente",
+        "productos": [
+            {
+                "nombre": "Metronidazol",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Nitrofural",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 9,
+        "sucursal": {
+            "nombre": "Plaza Mayor"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Cancelado",
+        "productos": [
+            {
+                "nombre": "Donepecilo",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Etambutol",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    },
+    {
+        "id_compra": 10,
+        "sucursal": {
+            "nombre": "Plaza Mayor"
+        },
+        "empleado":{
+            "nombre": "hola",
+            "a_paterno": "hola",
+            "a_materno": "hola"
+        },
+        "fecha_y_hora": "2023-08-07 21-53-03",
+        "estatus": "Atendido",
+        "productos": [
+            {
+                "nombre": "Efavirenz",
+                "cantidad": 20,
+                "precio_unitario": 25.5
+            },
+            {
+                "nombre": "Ciprofibrato",
+                "cantidad": 30,
+                "precio_unitario": 35.5
+            }
+        ]
+    }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id_cliente": "1",
+    "fecha_de_registro": "2023-07-19",
+    "nombre_sucursal": "Centro Max",
+    "estatus": 1 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Sergio",
+        "a_paterno": "Vázquez",
+        "a_materno": "Rizo"
+      },
+      "genero": "Masculino",
+      "fecha_nacimiento": "1985-09-15",
+      "rfc": "VAZR850915ABCD01",
+      "curp": "VAZR850915HMCRRR00",
+      "domicilio": "Calle 123, Colonia Centro",
+      "codigo_postal": "12345",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-123-4567",
+      "email": "sergio.vazquez@example.com",
+      "foto": "img/sergio.jpg"
+    }
+  },
+  {
+    "id_cliente": "2",
+    "fecha_de_registro": "2023-07-18",
+    "nombre_sucursal": "Altacia",
+    "estatus": 1 ,
+    "persona": {
+      "nombre": {
+        "nombre": "María",
+        "a_paterno": "García",
+        "a_materno": "López"
+      },
+      "genero": "Femenino",
+      "fecha_nacimiento": "1990-03-25",
+      "rfc": "GALM900325ABCD01",
+      "curp": "GALM900325MDFRRR00",
+      "domicilio": "Avenida 456, Colonia Juárez",
+      "codigo_postal": "67890",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "telefono": "333-555-7890",
+      "email": "maria.garcia@example.com",
+      "foto": "img/maria.jpg"
+    }
+  },
+  {
+    "id_cliente": "3",
+    "fecha_de_registro": "2023-07-17",
+    "nombre_sucursal": "Plaza Mayor ",
+    "estatus": 1 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Juan",
+        "a_paterno": "Pérez",
+        "a_materno": "Gómez"
+      },
+      "genero": "Masculino",
+      "fecha_nacimiento": "1988-11-03",
+      "rfc": "PEGJ881103ABCD01",
+      "curp": "PEGJ881103HDFRRR00",
+      "domicilio": "Calle 789, Colonia Reforma",
+      "codigo_postal": "54321",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "telefono": "818-444-3333",
+      "email": "juan.perez@example.com",
+      "foto": "img/juan.jpg"
+    }
+  },
+  {
+    "id_cliente": "4",
+    "fecha_de_registro": "2023-07-16",
+    "nombre_sucursal": "Centro",
+    "estatus": 1 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Ana",
+        "a_paterno": "Martínez",
+        "a_materno": "Hernández"
+      },
+      "genero": "Femenino",
+      "fecha_nacimiento": "1992-06-10",
+      "rfc": "MAHA920610ABCD01",
+      "curp": "MAHA920610MDFRRR00",
+      "domicilio": "Avenida 987, Colonia Chapultepec",
+      "codigo_postal": "54321",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "telefono": "333-777-2222",
+      "email": "ana.martinez@example.com",
+      "foto": "img/ana.jpg"
+    }
+  },
+  {
+    "id_cliente": "5",
+    "fecha_de_registro": "2023-07-15",
+    "nombre_sucursal": "Centro Max",
+    "estatus": 1 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Roberto",
+        "a_paterno": "Gómez",
+        "a_materno": "Ramírez"
+      },
+      "genero": "Masculino",
+      "fecha_nacimiento": "1994-12-20",
+      "rfc": "GORR941220ABCD01",
+      "curp": "GORR941220HDFRRR00",
+      "domicilio": "Calle 9876, Colonia Del Valle",
+      "codigo_postal": "54321",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "telefono": "818-999-7777",
+      "email": "roberto.gomez@example.com",
+      "foto": "img/roberto.jpg"
+    }
+  },
+  {
+    "id_cliente": "6",
+    "fecha_de_registro": "2023-07-14",
+    "nombre_sucursal": "Altacia",
+    "estatus": 0 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Laura",
+        "a_paterno": "Mendoza",
+        "a_materno": "Díaz"
+      },
+      "genero": "Femenino",
+      "fecha_nacimiento": "1982-04-05",
+      "rfc": "MODE820405ABCD01",
+      "curp": "MODE820405MDFRRR00",
+      "domicilio": "Avenida 7654, Colonia Roma",
+      "codigo_postal": "54321",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-777-8888",
+      "email": "laura.mendoza@example.com",
+      "foto": "img/laura.jpg"
+    }
+  },
+  {
+    "id_cliente": "7",
+    "fecha_de_registro": "2023-07-13",
+    "nombre_sucursal": "Plaza Mayor ",
+    "estatus": 0 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Carlos",
+        "a_paterno": "López",
+        "a_materno": "Sánchez"
+      },
+      "genero": "Masculino",
+      "fecha_nacimiento": "1989-08-12",
+      "rfc": "LOSC890812ABCD01",
+      "curp": "LOSC890812HDFRRR00",
+      "domicilio": "Calle 5432, Colonia Condesa",
+      "codigo_postal": "54321",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-888-9999",
+      "email": "carlos.lopez@example.com",
+      "foto": "img/carlos.jpg"
+    }
+    
+  },
+  {
+    "id_cliente": "8",
+    "fecha_de_registro": "2023-07-12",
+    "nombre_sucursal": "Centro",
+    "estatus": 0 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Martha",
+        "a_paterno": "Hernández",
+        "a_materno": "Gutiérrez"
+      },
+      "genero": "Femenino",
+      "fecha_nacimiento": "1991-02-28",
+      "rfc": "HEMG910228ABCD01",
+      "curp": "HEMG910228MDFRRR00",
+      "domicilio": "Avenida 6543, Colonia Polanco",
+      "codigo_postal": "54321",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-666-7777",
+      "email": "martha.hernandez@example.com",
+      "foto": "img/martha.jpg"
+    }
+  },
+  {
+    "id_cliente": "9",
+    "fecha_de_registro": "2023-07-11",
+    "nombre_sucursal": "Altacia",
+    "estatus": 0 ,
+    "persona": {
+      "nombre": {
+        "nombre": "Pedro",
+        "a_paterno": "Ramírez",
+        "a_materno": "Santos"
+      },
+      "genero": "Masculino",
+      "fecha_nacimiento": "1987-10-08",
+      "rfc": "RASP871008ABCD01",
+      "curp": "RASP871008MDFRRR00",
+      "domicilio": "Calle 1357, Colonia Narvarte",
+      "codigo_postal": "54321",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-444-6666",
+      "email": "pedro.ramirez@example.com",
+      "foto": "img/pedro.jpg"
+    }
+  },
+  {
+    "id_cliente": "10",
+    "fecha_de_registro": "2023-07-10",
+    "nombre_sucursal": "Centro Max",
+    "estatus":0,
+    "persona": {
+      "nombre": {
+        "nombre": "Mónica",
+        "a_paterno": "Gómez",
+        "a_materno": "Fernández"
+      },
+      "genero": "Femenino",
+      "fecha_nacimiento": "1993-11-30",
+      "rfc": "GOFM931130ABCD01",
+      "curp": "GOFM931130MDFRRR00",
+      "domicilio": "Avenida 98765, Colonia Polanco",
+      "codigo_postal": "54321",
+      "ciudad": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "telefono": "555-222-3333",
+      "email": "monica.gomez@example.com",
+      "foto": "img/monica.jpg"
+    }
+  }
+]

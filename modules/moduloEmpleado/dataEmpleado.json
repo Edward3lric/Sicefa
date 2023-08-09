@@ -1,0 +1,442 @@
+[
+    {
+        "codigo_empleado": "20011501",
+        "fecha_de_ingreso": "2020-01-15",
+        "puesto": "Gerente",
+        "salario_bruto_mensual": 20000,
+        "estatus": 1,
+        "persona": {
+            "nombre": {
+                "nombre": "Juan",
+                "a_Paterno": "García",
+                "a_Materno": "Pérez"
+            },
+            "genero": "Masculino",
+            "fecha_de_Nacimiento": "1990-05-10",
+            "rfc": "GAPJ900510",
+            "curp": "CUPJ900510HDFRZR00",
+            "telefono": "5551234567",
+            "foto": "foto1.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Guadalajara",
+            "cp": "44100",
+            "domicilio": "Calle 1",
+            "email": "juan.garcia@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "1",
+            "telefono": "477111111",
+            "nombre": "Matriz",
+            "nombre_titular": "Juan Pérez",
+            "rfc_titular": "PERJ800101",
+            "estatus": "Activo",
+            "latitud": "21.1513918",
+            "longitud": "-101.6881073",
+            "cp": "31180",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Futurama Monterrey",
+            "domicilio": "Lunik 216"
+        },
+        "usuario": {
+            "usuario": "20011501",
+            "contrasenia": "20011501"
+        }
+    },
+    {
+        "codigo_empleado": "19051502",
+        "fecha_de_ingreso": "2019-05-20",
+        "puesto": "Vendedor",
+        "salario_bruto_mensual": 15000,
+        "estatus": 1,
+        "persona": {
+            "nombre": {
+                "nombre": "Pedro",
+                "a_Paterno": "Martínez",
+                "a_Materno": "Gómez"
+            },
+            "genero": "Masculino",
+            "fecha_de_Nacimiento": "1985-03-15",
+            "rfc": "MAGP850315",
+            "curp": "CUGP850315HDFRZR00",
+            "telefono": "5555555555",
+            "foto": "foto3.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Guadalajara",
+            "cp": "44200",
+            "domicilio": "Calle 2",
+            "email": "pedro.martinez@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "2",
+            "telefono": "477222222",
+            "nombre": "Centro",
+            "nombre_titular": "María García",
+            "rfc_titular": "GARM900202",
+            "estatus": "Activo",
+            "latitud": "21.1242016",
+            "longitud": "-101.6821193",
+            "cp": "37000",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Centro",
+            "domicilio": "Calle Hidalgo 211"
+        },
+        "usuario": {
+            "usuario": "19051502",
+            "contrasenia": "19051502"
+        }
+    },
+    {
+        "codigo_empleado": "18111503",
+        "fecha_de_ingreso": "2018-11-10",
+        "puesto": "Cajero",
+        "salario_bruto_mensual": 12000,
+        "estatus": 1,
+        "persona": {
+            "nombre": {
+                "nombre": "María",
+                "a_Paterno": "López",
+                "a_Materno": "Hernández"
+            },
+            "genero": "Femenino",
+            "fecha_de_Nacimiento": "1992-08-20",
+            "rfc": "LOHM920820",
+            "curp": "CUHM920820HDFRZR00",
+            "telefono": "5559876543",
+            "foto": "foto2.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Zapopan",
+            "cp": "44150",
+            "domicilio": "Calle 3",
+            "email": "maria.lopez@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "3",
+            "telefono": "477333333",
+            "nombre": "Centro Max",
+            "nombre_titular": "Carlos López",
+            "rfc_titular": "LOCC850303",
+            "estatus": "Activo",
+            "latitud": "21.1000744",
+            "longitud": "-101.6357818",
+            "cp": "37530",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Jardines de Jerez",
+            "domicilio": "Blvd. Adolfo López Mateos 2518"
+        },
+        "usuario": {
+            "usuario": "18111503",
+            "contrasenia": "18111503"
+        }
+    },
+    {
+        "codigo_empleado": "21021504",
+        "fecha_de_ingreso": "2021-02-18",
+        "puesto": "Vendedor",
+        "salario_bruto_mensual": 13000,
+        "estatus": 1,
+        "persona": {
+            "nombre": {
+                "nombre": "Ana",
+                "a_Paterno": "Rodríguez",
+                "a_Materno": "Sánchez"
+            },
+            "genero": "Femenino",
+            "fecha_de_Nacimiento": "1991-12-02",
+            "rfc": "ROSA911202",
+            "curp": "CURO911202HDFRZR00",
+            "telefono": "5558889999",
+            "foto": "foto4.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Zapopan",
+            "cp": "44250",
+            "domicilio": "Calle 4",
+            "email": "ana.rodriguez@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "4",
+            "telefono": "477444444",
+            "nombre": "Plaza Mayor",
+            "nombre_titular": "Ana Rodríguez",
+            "rfc_titular": "ROAA950404",
+            "estatus": "Activo",
+            "latitud": "21.1578058",
+            "longitud": "-101.6950851",
+            "cp": "37150",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Valle del Campestre",
+            "domicilio": "Blvd. Juan Alonso de Torres Pte. 2002"
+        },
+        "usuario": {
+            "usuario": "21021504",
+            "contrasenia": "21021504"
+        }
+    },
+    {
+        "codigo_empleado": "22091505",
+        "fecha_de_ingreso": "2022-09-05",
+        "puesto": "Cajero",
+        "salario_bruto_mensual": 11000,
+        "estatus": 1,
+        "persona": {
+            "nombre": {
+                "nombre": "Luis",
+                "a_Paterno": "Hernández",
+                "a_Materno": "González"
+            },
+            "genero": "Masculino",
+            "fecha_de_Nacimiento": "1988-07-18",
+            "rfc": "HEGL880718",
+            "curp": "CUHE880718HDFRZR00",
+            "telefono": "5552223333",
+            "foto": "foto5.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Guadalajara",
+            "cp": "44300",
+            "domicilio": "Calle 5",
+            "email": "luis.hernandez@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "1",
+            "telefono": "477111111",
+            "nombre": "Matriz",
+            "nombre_titular": "Juan Pérez",
+            "rfc_titular": "PERJ800101",
+            "estatus": "Activo",
+            "latitud": "21.1513918",
+            "longitud": "-101.6881073",
+            "cp": "31180",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Futurama Monterrey",
+            "domicilio": "Lunik 216"
+        },
+        "usuario": {
+            "usuario": "22091505",
+            "contrasenia": "22091505"
+        }
+    },
+    {
+        "codigo_empleado": "23031506",
+        "fecha_de_ingreso": "2023-03-11",
+        "puesto": "Gerente",
+        "salario_bruto_mensual": 22000,
+        "estatus": 0,
+        "persona": {
+            "nombre": {
+                "nombre": "Laura",
+                "a_Paterno": "Torres",
+                "a_Materno": "Pérez"
+            },
+            "genero": "Femenino",
+            "fecha_de_Nacimiento": "1995-06-30",
+            "rfc": "TOPG950630",
+            "curp": "CUTP950630HDFRZR00",
+            "telefono": "5554445555",
+            "foto": "foto6.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Zapopan",
+            "cp": "44350",
+            "domicilio": "Calle 6",
+            "email": "laura.torres@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "2",
+            "telefono": "477222222",
+            "nombre": "Centro",
+            "nombre_titular": "María García",
+            "rfc_titular": "GARM900202",
+            "estatus": "Activo",
+            "latitud": "21.1242016",
+            "longitud": "-101.6821193",
+            "cp": "37000",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Centro",
+            "domicilio": "Calle Hidalgo 211"
+        },
+        "usuario": {
+            "usuario": "23031506",
+            "contrasenia": "23031506"
+        }
+    },
+    {
+        "codigo_empleado": "22071507",
+        "fecha_de_ingreso": "2022-07-30",
+        "puesto": "Cajero",
+        "salario_bruto_mensual": 10000,
+        "estatus": 0,
+        "persona": {
+            "nombre": {
+                "nombre": "Carlos",
+                "a_Paterno": "Sánchez",
+                "a_Materno": "Gómez"
+            },
+            "genero": "Masculino",
+            "fecha_de_Nacimiento": "1994-11-25",
+            "rfc": "SAGC941125",
+            "curp": "CUSG941125HDFRZR00",
+            "telefono": "5557778888",
+            "foto": "foto7.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Guadalajara",
+            "cp": "44400",
+            "domicilio": "Calle 7",
+            "email": "carlos.sanchez@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "3",
+            "telefono": "477333333",
+            "nombre": "Centro Max",
+            "nombre_titular": "Carlos López",
+            "rfc_titular": "LOCC850303",
+            "estatus": "Activo",
+            "latitud": "21.1000744",
+            "longitud": "-101.6357818",
+            "cp": "37530",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Jardines de Jerez",
+            "domicilio": "Blvd. Adolfo López Mateos 2518"
+        },
+        "usuario": {
+            "usuario": "22071507",
+            "contrasenia": "22071507"
+        }
+    },
+    {
+        "codigo_empleado": "21121508",
+        "fecha_de_ingreso": "2021-12-02",
+        "puesto": "Vendedor",
+        "salario_bruto_mensual": 14000,
+        "estatus": 0,
+        "persona": {
+            "nombre": {
+                "nombre": "Fernanda",
+                "a_Paterno": "Luna",
+                "a_Materno": "Navarro"
+            },
+            "genero": "Femenino",
+            "fecha_de_Nacimiento": "1992-08-20",
+            "rfc": "LOHM920820",
+            "curp": "CUHM920820HDFRZR00",
+            "telefono": "5559876543",
+            "foto": "foto2.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Zapopan",
+            "cp": "44150",
+            "domicilio": "Calle 2",
+            "email": "fernanda.luna@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "4",
+            "telefono": "477444444",
+            "nombre": "Plaza Mayor",
+            "nombre_titular": "Ana Rodríguez",
+            "rfc_titular": "ROAA950404",
+            "estatus": "Activo",
+            "latitud": "21.1578058",
+            "longitud": "-101.6950851",
+            "cp": "37150",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Valle del Campestre",
+            "domicilio": "Blvd. Juan Alonso de Torres Pte. 2002"
+        },
+        "usuario": {
+            "usuario": "21121508",
+            "contrasenia": "21121508"
+        }
+    },
+    {
+        "codigo_empleado": "20081509",
+        "fecha_de_ingreso": "2020-08-24",
+        "puesto": "Gerente",
+        "salario_bruto_mensual": 21000,
+        "estatus": 0,
+        "persona": {
+            "nombre": {
+                "nombre": "Javier",
+                "a_Paterno": "Díaz",
+                "a_Materno": "Morales"
+            },
+            "genero": "Masculino",
+            "fecha_de_Nacimiento": "1990-02-28",
+            "rfc": "DAMJ900228",
+            "curp": "CUMJ900228HDFRZR00",
+            "telefono": "5559990000",
+            "foto": "foto9.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Guadalajara",
+            "cp": "44500",
+            "domicilio": "Calle 9",
+            "email": "javier.diaz@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "1",
+            "telefono": "477111111",
+            "nombre": "Matriz",
+            "nombre_titular": "Juan Pérez",
+            "rfc_titular": "PERJ800101",
+            "estatus": "Activo",
+            "latitud": "21.1513918",
+            "longitud": "-101.6881073",
+            "cp": "31180",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Futurama Monterrey",
+            "domicilio": "Lunik 216"
+        },
+        "usuario": {
+            "usuario": "20081509",
+            "contrasenia": "20081509"
+        }
+    },
+    {
+        "codigo_empleado": "190615010",
+        "fecha_de_ingreso": "2019-06-15",
+        "puesto": "Cajero",
+        "salario_bruto_mensual": 13000,
+        "estatus": 0,
+        "persona": {
+            "nombre": {
+                "nombre": "Elena",
+                "a_Paterno": "Flores",
+                "a_Materno": "Soto"
+            },
+            "genero": "Femenino",
+            "fecha_de_Nacimiento": "1987-04-12",
+            "rfc": "FOSA870412",
+            "curp": "CUOS870412HDFRZR00",
+            "telefono": "5553334444",
+            "foto": "foto10.jpg",
+            "estado": "Jalisco",
+            "ciudad": "Zapopan",
+            "cp": "44600",
+            "domicilio": "Calle 10",
+            "email": "elena.flores@example.com"
+        },
+        "sucursal": {
+            "id_sucursal": "2",
+            "telefono": "477222222",
+            "nombre": "Centro",
+            "nombre_titular": "María García",
+            "rfc_titular": "GARM900202",
+            "estatus": "Activo",
+            "latitud": "21.1242016",
+            "longitud": "-101.6821193",
+            "cp": "37000",
+            "estado": "Guanajuato",
+            "ciudad": "León",
+            "colonia": "Centro",
+            "domicilio": "Calle Hidalgo 211"
+        },
+        "usuario": {
+            "usuario": "190615010",
+            "contrasenia": "190615010"
+        }
+    }
+]

@@ -40,20 +40,71 @@ function producto() {
 }
 
 function empleado() {
-    let html = "";
-    changeActive("empleado")
-    main.innerHTML = html;
+    fetch("./modules/moduloEmpleado/vista.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("empleado");
+            main.innerHTML = html;
+            import("../modules/moduloEmpleado/controlador.js").then((module) => {
+                controller = module;
+                controller.añadirCampos();
+            });
+        }
+    );
 }
 function cliente() {
-    let html = "";
-    changeActive("cliente")
-    main.innerHTML = html;
+    fetch("./modules/moduloCliente/vistaCliente.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("cliente");
+            main.innerHTML = html;
+            import("../modules/moduloCliente/controllerCliente.js").then((module) => {
+                controller = module;
+                controller.añadirCampos();
+            });
+        }
+    );
 }
 function venta() {
-    let html = "";
-    changeActive("venta")
-    main.innerHTML = html;
+    fetch("./modules/moduloVenta/vistaVenta.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("venta");
+            main.innerHTML = html;
+            import("../modules/moduloVenta/controllerVenta.js").then((module) => {
+                controller = module;
+                controller.añadirCampos();
+            });
+        }
+    );
 }
+
+function cambiarPassword(){
+    fetch("./modules/moduloUsuario/vistaUsuario.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("settings");
+            main.innerHTML = html;
+            import("../modules/moduloUsuario/controllerUsuario.js").then((module) => {
+                controller = module;
+                controller.añadirNombre();
+            });
+        }
+    );
+}
+
 function changeActive(element) {
     let icon;
     icon = document.getElementById(active);

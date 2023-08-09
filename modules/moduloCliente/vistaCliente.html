@@ -1,0 +1,66 @@
+<h1>Gestión Cliente</h1>
+<div class="main-container">
+    <div class="left">
+        <form>
+            <div>
+                <div class="row">
+                    <input type="text" name="nombre" class="large-input" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="row">
+                    <input type="text" name="a_paterno" class="small-input" id="apellido_Paterno" placeholder="Apellido Paterno">
+                    <input type="text" name="a_materno" class="small-input" id="apellido_Materno" placeholder="Apellido Materno">
+                </div>
+                <div class="row">
+                    <input type="text" name="genero" class="small-input" id="genero" placeholder="Genero">
+                    <input type="text" name="fecha_nacimiento" class="small-input" id="fecha_nacimiento" placeholder="Fecha Nacimiento">
+                </div>
+                <div class="row">
+                    <input type="text" name="rfc" class="small-input" id="rfc" placeholder="RFC">
+                    <input type="text" name="curp" class="small-input" id="curp" placeholder="CURP">
+                </div>
+                <div class="row">
+                    <input type="text" name="foto" class="small-input" id="foto" placeholder="Foto">
+                    <input type="text" name="domicilio" class="small-input" id="domicilio" placeholder="Domicilio">
+                </div>
+                <div class="row">
+                    <input type="number" name="codigo-postal" class="small-input" id="codigo-postal" placeholder="Codigo Postal">
+                    <input type="text" name="ciudad" class="small-input" id="ciudad" placeholder="Ciudad">
+                </div>
+                <div class="row">
+                    <input type="text" name="estado" class="small-input" id="estado" placeholder="Estado">
+                    <input type="tel" name="telefono" class="small-input" id="telefono" placeholder="Teléfono">
+                </div>
+                <div class="row">
+                    <input type="text" name="fecha_de_registro" class="small-input" id="fecha_de_registro" placeholder="Fecha de registro">
+                    <input type="text" name="email" class="small-input" id="email" placeholder="Email">
+                </div>
+            </div> 
+            <div style="height: calc(100% - 565px);"></div>
+            <div id="buttons">
+                <button type="button" onclick="controller.addCliente();"><i class="fa-solid fa-circle-plus"></i> <span>Registrar</span></button>
+                <button type="button" onclick="controller.editCliente();"><i class="fa-solid fa-pencil"></i> <span>Modificar</span></button>
+                <button type="button" onclick="controller.deleteCliente();"><i class="fa-solid fa-circle-minus"></i> <span>Eliminar</span></button>
+            </div>
+        </form>
+    </div>
+    <div class="right">
+      <div id="tabla">
+          <form id="filtros">
+              <input type="search" class="button large-input" name="" id="" placeholder="Buscar Sucursal" onchange="controller.loadTable();">
+              <div class="checkbox-wrapper-2">
+                  <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.loadTable();">
+              </div>
+          </form>
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nombre Completo</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody id="tblClientes"></tbody>
+          </table>
+      </div>
+  </div>
+</div>

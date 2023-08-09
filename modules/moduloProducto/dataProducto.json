@@ -1,0 +1,197 @@
+[
+    {
+        "id_producto": 1,
+            "nombre": "Donepecilo",
+            "nombre_generico": "Donepecilo, Clorhidrato de",
+            "forma_farmaceutica": "Tableta",
+            "unidad_de_medida": "mg",
+            "presentacion": "Envase con 14 tabletas",
+            "principal_indicacion": "Enfermedad de Alzheimer",
+            "contraindicaciones": "Hipersensibilidad al fármaco o a los derivados de piperidina",
+            "concentración": "10 mg",
+            "unidades_en_envase": "30",
+            "precio_unitario": "665",
+            "foto": "donepecilo.jpg",
+            "estatus": 1,
+            "inventario": {
+                "id_inventeario": 1,
+                "sucursal": "Centro"
+            }
+    },
+    {
+        "id_producto": 2,
+        "nombre": "Etambutol",
+        "nombre_generico": "Etambutol, Clorhidrato de",
+        "forma_farmaceutica": "Tableta",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 50 tabletas",
+        "principal_indicacion": "Tuberculosis",
+        "contraindicaciones": "Hipersensibilidad al fármaco, neuritis óptica y en menores de 12 años",
+        "concentración": "400 mg",
+        "unidades_en_envase": "50",
+        "precio_unitario": "210",
+        "foto": "etambutol.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 2,
+            "sucursal": "Centro"
+        }
+   
+    },
+    {
+        "id_producto": 3,
+        "nombre": "Efavirenz",
+        "nombre_generico": "Efavirenz",
+        "forma_farmaceutica": "comprimido recubierto",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 30 comprimidos recubiertos",
+        "principal_indicacion": "Infección por Virus de Inmunodeficiencia Humana (VIH), en combinación con otros antirretrovirales",
+        "contraindicaciones": "Hipersensibilidad al fármaco",
+        "concentración": "600 mg",
+        "unidades_en_envase": "30",
+        "precio_unitario": "254",
+        "foto": "efavirenz.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 3,
+            "sucursal": "Centro"
+        }
+   
+    },
+    {
+        "id_producto": 4,
+        "nombre": "Ciprofibrato",
+        "nombre_generico": "Ciprofibrato",
+        "forma_farmaceutica": "cápsula o tableta",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 30 cápsulas o tabletas",
+        "principal_indicacion": "Hiperlipidemias tipo IIb y IV",
+        "contraindicaciones": "Hipersensibilidad al fármaco. Insuficiencia hepática o renal",
+        "concentración": "100 mg",
+        "unidades_en_envase": "30",
+        "precio_unitario": "665",
+        "foto": "ciprofibrato.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 4,
+            "sucursal": "Centro"
+        }
+  
+    },
+    {
+        "id_producto": 5,
+        "nombre": "Lidocaína",
+        "nombre_generico": "Lidocaína, Clorhidrato de",
+        "forma_farmaceutica": "gel",
+        "unidad_de_medida": "mg/ml",
+        "presentacion": "Envase con 20 ml",
+        "principal_indicacion": "Anestesia local",
+        "contraindicaciones": "Hipersensibilidad conocida a anestésicos locales de tipo amida o a los otros componentes de la fórmula",
+        "concentración": "20 mg/ml",
+        "unidades_en_envase": "20",
+        "precio_unitario": "306",
+        "foto": "lidocaina.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 5,
+            "sucursal": "Centro Max"
+        }
+    
+    },
+    {
+        "id_producto": 6,
+        "nombre": "Ambroxol",
+        "nombre_generico": "Ambroxol, Clorhidrato de",
+        "forma_farmaceutica": "solución",
+        "unidad_de_medida": "mg/ml",
+        "presentacion": "Envase con 120 ml y dosificador",
+        "principal_indicacion": "Bronquitis",
+        "contraindicaciones": "Hipersensibilidad al fármaco",
+        "concentración": "300 mg/100 ml",
+        "unidades_en_envase": "120",
+        "precio_unitario": "277",
+        "foto": "ambroxol.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 6,
+            "sucursal": "Centro Max"
+        }
+    
+    },
+    {
+        "id_producto": 7,
+        "nombre": "Metronidazol",
+        "nombre_generico": "Metronidazol",
+        "forma_farmaceutica": "óvulo o tableta vaginal",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 10 óvulos o tabletas",
+        "principal_indicacion": "Tricomoniasis vaginal",
+        "contraindicaciones": "Hipersensibilidad al fármaco",
+        "concentración": "500 mg",
+        "unidades_en_envase": "10",
+        "precio_unitario": "973",
+        "foto": "metronidazol.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 7,
+            "sucursal": "Centro Max"
+        }
+    },
+    {
+        "id_producto": 8,
+        "nombre": "Nitrofural",
+        "nombre_generico": "Nitrofural",
+        "forma_farmaceutica": "óvulo",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 6 óvulos",
+        "principal_indicacion": "Vaginitis bacteriana",
+        "contraindicaciones": "Hipersensibilidad al fármaco",
+        "concentración": "6 mg",
+        "unidades_en_envase": "6",
+        "precio_unitario": "213",
+        "foto": "nitrofural.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 8,
+            "sucursal": "Plaza Mayor"
+        }
+    },
+    {
+        "id_producto": 9,
+        "nombre": "Ibuprofeno",
+        "nombre_generico": "Ibuprofeno",
+        "forma_farmaceutica": "cápsula",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 30 cápsulas",
+        "principal_indicacion": "Dolor de leve a moderado",
+        "contraindicaciones": "NINGUNA",
+        "concentración": "400 mg",
+        "unidades_en_envase": "30",
+        "precio_unitario": "537",
+        "foto": "ibuprofeno.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 9,
+            "sucursal": "Plaza Mayor"
+        }
+    },
+    {
+        "id_producto": 10,
+        "nombre": "Montelukast",
+        "nombre_generico": "Montelukast sódico",
+        "forma_farmaceutica": "comprimido recubierto",
+        "unidad_de_medida": "mg",
+        "presentacion": "Envase con 30 comprimidos",
+        "principal_indicacion": "Asma bronquial",
+        "contraindicaciones": "Hipersensibilidad al fármaco. No es de primera elección en el ataque agudo de asma, No se recomienda en menores de 6 años, ni durante la lactancia",
+        "concentración": "10 mg",
+        "unidades_en_envase": "30",
+        "precio_unitario": "686",
+        "foto": "montelukast.jpg",
+        "estatus": 1,
+        "inventario": {
+            "id_inventeario": 10,
+            "sucursal": "Plaza Mayor"
+        }
+    }
+]

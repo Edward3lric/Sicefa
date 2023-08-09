@@ -9,9 +9,9 @@
         "nombre": "Matriz"
       },
       "persona": {
-        "nombre": "hola",
-        "a_paterno": "hola",
-        "a_materno": "hola"
+        "nombre": "Juan",
+        "a_paterno": "Lopez",
+        "a_materno": "Gomez"
       }
     }
   },
@@ -25,9 +25,9 @@
         "nombre": "Centro"
       },
       "persona": {
-        "nombre": "hola",
-        "a_paterno": "hola",
-        "a_materno": "hola"
+        "nombre": "Maria",
+        "a_paterno": "Gonzalez",
+        "a_materno": "Perez"
       }
     }
   },
@@ -41,9 +41,9 @@
         "nombre": "Centro Max"
       },
       "persona": {
-        "nombre": "hola",
-        "a_paterno": "hola",
-        "a_materno": "hola"
+        "nombre": "Carlos",
+        "a_paterno": "Ramirez",
+        "a_materno": "Vargas"
       }
     }
   },
