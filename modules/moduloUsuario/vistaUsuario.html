@@ -1,0 +1,19 @@
+<style>
+    input{
+        padding: 4px 8px 4px 8px;
+    }
+    input[type="button"]{
+        background-color: white;
+    }
+    input[type="button"]:hover{
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+    }
+</style>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <form style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+        <h1 style="font-size: 40px;">Hola: <span id="user-name"></span></h1>
+        <label style="font-size: 20px;">Nueva Contraseña</label><br>
+        <input type="password" name="password" id="password-text"><br>
+        <input type="button" onclick="controller.cambiarPassword();" value="Enviar" name="" id="">
+    </form>
+</div>

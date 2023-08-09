@@ -56,6 +56,14 @@ export function añadirCampos(){
 
 // Funcion para añadir una sucursal
 export function addSucursal(){
+    // Codigo para evitar que se ingreseen datos sin valor
+    let inputs = document.querySelectorAll(".row input");
+    for (let i = 0; i < inputs.length; i++){
+        if (inputs[i].value === ""){
+            // Finaliza la funcion
+            return;
+        }
+    } 
     // Recuperar datos de los inputs y asignarlos a su valor correspondiente
     let sucursal = {
         "id_sucursal": sucursales.length + 1,
@@ -100,7 +108,7 @@ export function selectSucursal(index){
     colonia.value = sucursal.colonia;
     ciudad.value = sucursal.ciudad;
     estado.value = sucursal.estado;
-    codigoPostal.value = sucursal.codigo_postal;
+    codigoPostal.value = sucursal.cp;
     telefono.value = sucursal.telefono;
     longitud.value = sucursal.longitud;
     latitud.value = sucursal.latitud;
@@ -131,6 +139,14 @@ export function deleteSucursal(){
 }
 
 export function editSucursal(){
+    // Codigo para evitar que se ingreseen datos sin valor
+    let inputs = document.querySelectorAll(".row input");
+    for (let i = 0; i < inputs.length; i++){
+        if (inputs[i].value === ""){
+            // Finaliza la funcion
+            return;
+        }
+    } 
     // Crear un objeto sucursal con los nuevos valores, recuperados de los inputs
     let sucursal = {
         "id_sucursal": sucursales[indiceSucursalSeleccionada].id_sucursal,

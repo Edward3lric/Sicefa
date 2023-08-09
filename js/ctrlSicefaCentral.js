@@ -44,6 +44,25 @@ function pedido() {
     changeActive("pedido");
     main.innerHTML = html;
 }
+
+function cambiarPassword(){
+    fetch("./modules/moduloUsuario/vistaUsuario.html")
+    .then( 
+        function (response) {return response.text()}
+    )
+    .then(
+        function (html) {
+            changeActive("settings");
+            main.innerHTML = html;
+            import("../modules/moduloUsuario/controllerUsuario.js").then((module) => {
+                controller = module;
+                controller.añadirNombre();
+            });
+        }
+    );
+}
+
+
 function changeActive(element) {
     let icon;
     icon = document.getElementById(active);

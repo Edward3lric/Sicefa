@@ -50,7 +50,7 @@
         "nombre": "Plaza Mayor",
         "nombre_titular": "Ana Rodríguez",
         "rfc_titular": "ROAA950404",
-        "estatus": 0,
+        "estatus": 1,
         "latitud": "21.1578058",
         "longitud": "-101.6950851",
         "cp": "37150",
