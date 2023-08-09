@@ -38,7 +38,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Centro Max"
       },
       "persona": {
         "nombre": "hola",
@@ -54,7 +54,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Plaza Mayor"
       },
       "persona": {
         "nombre": "hola",
@@ -70,7 +70,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Farmacia Guadalajara"
       },
       "persona": {
         "nombre": "hola",
@@ -86,7 +86,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Salud y Bienestar"
       },
       "persona": {
         "nombre": "hola",
@@ -102,7 +102,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Farmacia Salud Total"
       },
       "persona": {
         "nombre": "hola",
@@ -118,7 +118,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Salud y Vida"
       },
       "persona": {
         "nombre": "hola",
@@ -134,7 +134,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Farmacia MedCenter"
       },
       "persona": {
         "nombre": "hola",
@@ -150,7 +150,7 @@
     "tipo_usario": "ADMS",
     "empleado": {
       "sucursal": {
-        "nombre": "Matriz"
+        "nombre": "Salud Familiar "
       },
       "persona": {
         "nombre": "hola",

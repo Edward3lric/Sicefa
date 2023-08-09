@@ -78,7 +78,7 @@ export function addSucursal(){
     // Cargar Tabla
     loadTable();
     // Aplicar filtro de busqueda
-    searchSucursal();
+    //searchSucursal();
     // Borrar texto del los inputs
     cleanInputs();
 
@@ -125,7 +125,7 @@ export function deleteSucursal(){
     // Cargar Tabla
     loadTable();
     // Aplicar filtro de busqueda
-    searchSucursal();
+    //searchSucursal();
     // Borrar texto del los inputs
     cleanInputs();
 }
@@ -154,7 +154,7 @@ export function editSucursal(){
     // Cargar Tabla
     loadTable();
     // Aplicar filtro de busqueda
-    searchSucursal();
+    //searchSucursal();
     // Borrar texto del los inputs
     cleanInputs();
 
@@ -162,13 +162,7 @@ export function editSucursal(){
     indiceSucursalSeleccionada = null;
 }
 
-export function showSucursal(){
-    // Cargar Tabla
-    loadTable();
-    // Aplicar filtro de busqueda
-    searchSucursal();
-}
-
+/*
 export function searchSucursal(){
     // Traer texto a buscar en minusculas para que la busqueda se indistinta de mayusculas o minuculas
     let textToSeach = document.querySelector("input[type='search']").value.toLowerCase();
@@ -204,7 +198,7 @@ export function searchSucursal(){
             }
         }   
     }
-}
+}*/
 
 // Funcion para limpiar los inputs
 function cleanInputs(){
@@ -224,25 +218,46 @@ function cleanInputs(){
 }
 
 // Funcion para cargar la tabla
-function loadTable(){
+export function loadTable(){
+    // Codigo para evitar que el input search funcione como "submit" en el formulario
+    let formulario = document.getElementById("filtros");
+    formulario.addEventListener("submit", function(event) {
+        event.preventDefault();
+    });
+    // Obtener valor de busqueda
+    let textToSeach = document.querySelector("input[type='search']").value.toLowerCase();
     // variable donde almacenare el codigo html
     let html = "";
     // Recorrer todas las sucursales
     sucursales.forEach(function(sucursal){
+        
+        if (textToSeach == sucursal.telefono.toLowerCase() ||
+            textToSeach == sucursal.nombre.toLowerCase() ||
+            textToSeach == sucursal.nombre_titular.toLowerCase() ||
+            textToSeach == sucursal.rfc_titular.toLowerCase() ||
+            textToSeach == sucursal.latitud.toLowerCase() ||
+            textToSeach == sucursal.longitud.toLowerCase() ||
+            textToSeach == sucursal.cp.toLowerCase() ||
+            textToSeach == sucursal.estado.toLowerCase() ||
+            textToSeach == sucursal.ciudad.toLowerCase() ||
+            textToSeach == sucursal.colonia.toLowerCase() ||
+            textToSeach == sucursal.domicilio.toLowerCase() ||
+            textToSeach == ""){
 
-        // Añadir la sucursal al codigo unicamente si se cumplen pr lo menos una de estas dos condiciones
-        // 1- Que el checkbox tenga un valor "True"
-        // 2- Que el estatus de la sucursal sea 1 o activo
-        if (document.getElementById("mostrar-inactivos").checked || sucursal.estatus == 1){
-            // Crear la variable registro
-            let registro = 
-            "<tr class='row-data' onclick='controller.selectSucursal(" + sucursales.indexOf(sucursal) + ")'>" + 
-            "<td>" + sucursal.id_sucursal +
-            "</td><td>" + sucursal.nombre +
-            "</td><td>" + sucursal.nombre_titular +
-            "</td></tr>";
-            // Sumar la variable registro al codigo html
-            html += registro;
+            // Añadir la sucursal al codigo unicamente si se cumplen por lo menos una de estas dos condiciones
+            // 1- Que el checkbox tenga un valor "True"
+            // 2- Que el estatus de la sucursal sea 1 o activo
+            if (document.getElementById("mostrar-inactivos").checked || sucursal.estatus == 1){
+                // Crear la variable registro
+                let registro = 
+                "<tr class='row-data' onclick='controller.selectSucursal(" + sucursales.indexOf(sucursal) + ")'>" + 
+                "<td>" + sucursal.id_sucursal +
+                "</td><td>" + sucursal.nombre +
+                "</td><td>" + sucursal.nombre_titular +
+                "</td></tr>";
+                // Sumar la variable registro al codigo html
+                html += registro;
+            }
         }
     });
     // Insertar el codigo html dentro de la tabla Sucursal

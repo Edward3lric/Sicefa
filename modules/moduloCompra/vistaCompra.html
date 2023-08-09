@@ -4,15 +4,14 @@
         <form>
             <div>
                 <div class="row">
-                    <input type="text" name="nombre-sucursal" class="large-input" id="nombre-sucursal" placeholder="Sucursal" required readonly>
+                    <input type="text" name="" class="large-input" id="" placeholder="Sucursal" required readonly>
                 </div>
                 <div class="row">
-                    <input type="text" name="nombre-empleado" class="small-input" id="nombre-empleado" placeholder="Empleado" required readonly>
-                    <input type="text" name="fecha-hora" class="small-input" id="fecha-hora" placeholder="Fecha y Hora" readonly>
+                    <input type="text" name="" class="small-input" id="" placeholder="Empleado" required readonly>
+                    <input type="text" name="" class="small-input" id="" placeholder="Fecha y Hora" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="producto" class="small-input" id="nombre-producto" placeholder="Producto" required onkeydown="controller.addProduct(event);">
-                    <input type="text" name="estatus" class="small-input" id="estatus" placeholder="Estatus" required readonly>
+                    <input type="number" name="" class="large-input" id="" placeholder="Buscar Producto" required>
                 </div>
             </div> 
             <div id="products">
@@ -27,17 +26,17 @@
                 </table>
             </div>
             <div id="buttons">
-                <button type="button" onclick="controller.addCompra();"><i class="fa-solid fa-circle-plus"></i> Crear</button>
-                <button type="button" onclick="controller.deleteSucursal();"><i class="fa-solid fa-circle-minus"></i> Cancelar</button>
+                <button type="button" onclick=""><i class="fa-solid fa-circle-plus"></i> Crear</button>
+                <button type="button" onclick=""><i class="fa-solid fa-circle-minus"></i> Cancelar</button>
             </div>
         </form>
     </div>
     <div class="right">
         <div id="tabla">
             <form id="filtros">
-                <input type="search" class="button large-input" name="buscar" id="buscar" placeholder="Buscar Sucursal" onchange="controller.searchSucursal();">
+                <input type="search" class="button small-input" name="" id="" placeholder="Buscar Pedido" onchange="">
                 <div class="checkbox-wrapper-2">
-                    <input type="checkbox" class="sc-gJwTLC ikxBAC" name="mostrar-inactivos" id="mostrar-inactivos" onchange="controller.showSucursal();">
+                    <input type="checkbox" class="sc-gJwTLC ikxBAC" name="" id="" onchange="">
                 </div>
             </form>
             <table>

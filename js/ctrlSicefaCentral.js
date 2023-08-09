@@ -9,7 +9,7 @@ function home() {
             <img src="./img/logo.png" alt="">
         </div>
         <div class="superior">
-            Bienvenido a Sicefa Sucursal
+            Bienvenido a Sicefa Central
         </div>
     </div>`;
     changeActive("home");

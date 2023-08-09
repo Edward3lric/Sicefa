@@ -83,6 +83,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   border-radius: 38px;
 }
 
@@ -143,6 +144,25 @@ i {
   font-size: 30px;
 }
 #buttons button:hover {
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+.button-in-inputs {
+  border-radius: 30px; 
+  padding: 4px 8px 4px 24px;
+  color: black;
+  border-color: transparent;
+  outline: none;
+  font-size: 18px;
+  height: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+.button-in-inputs:hover {
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
 }
 .left, .right{

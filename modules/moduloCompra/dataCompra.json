@@ -102,10 +102,10 @@
     {
         "id_compra": 5,
         "sucursal": {
-            "nombre": "centro Max"
+            "nombre": "Centro Max"
         },
         "empleado":{
-            "nombre": "hola",
+            "nombre": "jsjs",
             "a_paterno": "hola",
             "a_materno": "hola"
         },
@@ -127,7 +127,7 @@
     {
         "id_compra": 6,
         "sucursal": {
-            "nombre": "centro Max"
+            "nombre": "Centro Max"
         },
         "empleado":{
             "nombre": "hola",
@@ -152,7 +152,7 @@
     {
         "id_compra": 7,
         "sucursal": {
-            "nombre": "centro Max"
+            "nombre": "Centro Max"
         },
         "empleado":{
             "nombre": "hola",
